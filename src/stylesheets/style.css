@@ -144,13 +144,18 @@ body {
   transform: rotateX(-90deg) translateZ(50px);
 }
 
-#floater {
+.floater {
   position: absolute;
   width: 300px;
   height: 300px;
   animation: rotateRunner 10s ease-in-out infinite;
+  transition: width 2s, height 4s;
 
+}
 
+.floater:hover {
+  width: 700px;
+  height: 400px;
 }
 
 .header {
