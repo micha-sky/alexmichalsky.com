@@ -10,7 +10,7 @@ export default function Scene(props) {
         <model-viewer bounds="tight" src="Horse.glb"
                       camera-controls camera-orbit="75deg 75deg 5.5m"
                       ar ar-modes="webxr scene-viewer quick-look"
-                      camera-controls environment-image="neutral" poster="poster.webp"
+                      camera-controls environment-image="neutral" poster="ppppp.webp"
                       shadow-intensity="1" autoplay>
 
             <div className="progress-bar hide" slot="progress-bar">

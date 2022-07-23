@@ -6,8 +6,8 @@ export default function Footer() {
             <h1 className="header" >STAY
                 S̶̢̭͎̣̠͎̬̩̣̬͚̤̤̣͌̓͋̄̊̾̉͋̃̚U̵͚̬͓̺̗̠̲̮̦̟͚̗̣͌̿̽͗̾̂͆̕̕͜͝͝ͅŖ̸͇̼̮̪̤̤͖̗̼̺̻́̄̐̍̚R̴̢̛̤̪̗̦̦͔̜̯̒̇́̆̍̏̚̚͝͠ͅͅE̶̡̡̦̠̮̘͌̓̇̋͑̈́̓̆͗̆̏̋́͒͠A̷̧̘̦̞͚̤̦͎͍̱͕̯͑̓̽͗̄̏̅̀̅͜L̴̩̫̥̜̈́͂̍̊̽̈́̿͘͠</h1>
             <p></p>
-            <button id="myBtn" >email me</button>
-            <a href="https://www.facebook.com/alxmichalsky/" className="fa fa-facebook"></a>
+            <button id="myBtn" ><a href="mailto:contact@alexmichlsky.com"> email me</a></button>
+            <a href="https://www.facebook.com/alxmichalsky/" className="fa fa-facebook" ></a>
             <a href="https://www.instagram.com/myhousekyi/" className="fa fa-instagram"></a>
             <a href="https://soundcloud.com/getschwifty" className="fa fa-soundcloud"></a>
 
