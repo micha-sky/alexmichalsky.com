@@ -1,18 +1,20 @@
-import React from "react"
+import React from "react";
 import HoveringCuve from "../components/HoveringCuve";
-import Cube from "../components/cube";
-import Scene from "../components/scene";
-import Floater from "../components/floater";
-import "../stylesheets/style.css"
-import Footer from "../components/footer";
+import Cube from "../components/Cube";
+import Scene from "../components/Scene";
+import Floater from "../components/Floater";
+import "../stylesheets/style.css";
+import Footer from "../components/Footer";
 
 export default function Home() {
-    const horse = "../../static/Horse.glb"
-    return <div>
-        <Cube/>
-        <Scene model={horse}/>
-        <Floater image="../../static/ppppp.png"/>
-        <HoveringCuve/>
-        <Footer/>
+  const horse = "../../static/Horse.glb";
+  return (
+    <div>
+      <Cube />
+      <Scene model={horse} />
+      <Floater />
+      <HoveringCuve />
+      <Footer />
     </div>
+  );
 }
