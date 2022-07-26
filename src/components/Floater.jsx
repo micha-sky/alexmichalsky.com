@@ -2,10 +2,10 @@ import React from "react";
 import { GatsbyImage } from "gatsby-plugin-image";
 import { graphql, useStaticQuery } from "gatsby";
 
-export default function Floater(props) {
+export default function Floater() {
   const data = useStaticQuery(graphql`
     query {
-      allFile(filter: { relativePath: { eq: "ppppp.png" } }) {
+      allFile(filter:{relativeDirectory: {eq: "img"}}) {
         nodes {
           childImageSharp {
             gatsbyImageData
@@ -14,7 +14,6 @@ export default function Floater(props) {
       }
     }
   `);
-  console.log(data);
 
   return (
     <div className="floater">

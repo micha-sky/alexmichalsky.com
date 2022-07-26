@@ -167,7 +167,7 @@ body {
   width: 200px;
   height: 200px;
   top: 50%;
-  left: 50%;
+  left: 75%;
   transform: translate3d(-50%, -50%, 0);
 }
 
@@ -305,7 +305,7 @@ body {
   transform-style: preserve-3d;
   transform: translateZ(-50px);
 }
-.model-viewer {
+.scene model-viewer {
   position: absolute;
   width: 100%;
   height: 100%;
