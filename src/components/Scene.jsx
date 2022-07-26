@@ -25,6 +25,7 @@ export default function Scene() {
 
         <model-viewer bounds="tight" src={model}
                       camera-controls auto-rotate camera-orbit="10deg 10deg 2.5m"
+                      loading="lazy"
                       ar ar-modes="webxr scene-viewer quick-look"
                       camera-controls environment-image="neutral" poster="ppppp.webp"
                       shadow-intensity="1" autoplay>
