@@ -5,10 +5,10 @@ import { graphql, useStaticQuery } from "gatsby";
 export default function Floater() {
   const data = useStaticQuery(graphql`
     query {
-      allFile(filter:{relativeDirectory: {eq: "img"}}) {
+      allFile(filter: { relativeDirectory: { eq: "img" } }) {
         nodes {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData 
           }
         }
       }
