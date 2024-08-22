@@ -23,7 +23,7 @@ export default function Scene() {
     <div className="scene">
       <model-viewer
         bounds="tight"
-        src="Horse.glb"
+        src="poly.glb"
         camera-controls
         auto-rotate
         camera-orbit="10deg 10deg 2.5m"
